@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your One-Page Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* CSS styles go here */
+        body {
+ 
+             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("/img/background.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+                
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: 40px auto;
+        }
+
+        .slideshow-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .social-icons {
+            margin-top: 50px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: color 0.3s; /* Renk deÄiÅimi iÃ§in geÃ§iÅ efekti */
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            color: #ff0; /* Hover olduÄunda renk deÄiÅimi */
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff; /* Arka plan rengi */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gÃ¶lge */
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+       }
+
+       .navbar a:hover {
+           background-color: #0056b3; /* Hover rengi */
+           transform: scale(1.1);
+       }
+       .navbar {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           background-color: #;
+           padding: 10px;
+       }
+
+       .navbar img {
+           margin-left: 20px; /* Ä°stediÄiniz miktarda sola boÅluk ekleyebilirsiniz */
+       }
+
+       .navbar ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           display: flex;
+       }
+
+       .navbar li {
+           margin: 0 10px;
+       }
+
+       .navbar a {
+           color: #fff;
+           text-decoration: none;
+           padding: 8px 16px;
+           transition: background-color 0.3s;
+       }
+
+
+       @media screen and (max-width: 768px) {
+      .navbar ul {
+           flex-direction: column; /* BaÄlantÄ±larÄ± dikey dÃ¼zende gÃ¶ster */
+           padding-left: 50; /* VarsayÄ±lan sol boÅluÄu kaldÄ±r */
+       }
+
+       .navbar li {
+           margin: 10px 0; /* BaÄlantÄ±lar arasÄ±ndaki boÅluÄu ayarla */
+           text-align: center; /* Metni merkezle */
+       }
+       
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="/img/logo.png" width="100">
+        <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#about">Hakkında </a></li>
+            <li><a href="#services">Servisler</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </div>
+
+    <div id="home" class="container">
+        <h1>Hoş Geldiniz</h1>
+        <p>Bu site, yapay zekanın yaratıcı gücünü sergileyen bir platformdur. Burada, yapay zeka tarafından oluşturulan etkileyici resimlerin keyfini çıkarabilirsiniz. Sanatın sınırlarını zorlayan bu eserler, doğa, soyutlama, portre ve daha birçok kategoride yer alır. Yapay zekanın benzersiz yeteneklerini keşfetmek ve görsel bir şölen yaşamak için sitemizi gezinmeye başlayın. Unutmayın, geleceğin sanatı şimdi burada!</p>
+        <div class="slideshow-container">
+            <img src="/img/cat1.jpeg" alt="Image 1">
+            <img src="/img/cat2.jpeg" alt="Image 2">
+            <img src="/img/cat3.jpeg" alt="Image 3">
+        </div>
+        <a href="#" class="btn">Tıkla bana!</a>
+    </div>
+
+    <div id="about" class="container">
+        <h1>Hakkımızda</h1>
+        <p>Hakkımızda Biz, yapay zeka ile sanatın muhteşem buluşmasını kutluyoruz. Sitemiz, ilham verici yapay zeka destekli resimleriyle sanat tutkunlarına ve teknoloji meraklılarına ilham vermeyi hedefliyor. Yapay zeka algoritmalarının yaratıcılığı nasıl şekillendirdiğini keşfetmek için bir platform sunuyoruz. Her bir resim, teknolojinin gücünü ve sanatın derinliğini bir araya getirerek izleyiciye benzersiz bir deneyim sunuyor. Siz de bu yenilikçi dünyada bizimle birlikte keşif yapmaya davetlisiniz.</p>
+    </div>
+
+    <div id="services" class="container">
+        <h1>Our Services</h1>
+        <ol>
+           <li>Yapay Zeka Destekli Sanat Galerisi: Yenilikçi yapay zeka algoritmalarıyla üretilen sanat eserlerinin yer aldığı geniş bir koleksiyon.</li>
+           <li>Kişiselleştirilmiş İçerik: İhtiyaçlarınıza ve zevklerinize göre özelleştirilebilen yapay zeka tabanlı sanat eserleri.</li>
+           <li>Eğitim ve Keşif: Yapay zeka ve sanatın buluştuğu noktada, eğitim materyalleri ve keşif imkanları sunarak bu heyecan verici dünyaya giriş yapın.</li>
+           <li>Sanat ve Teknoloji Etkinlikleri: Yapay zeka ile sanat arasındaki etkileşimi ve potansiyeli keşfetmek üzere düzenlenen etkinlikler ve seminerler.</li>
+           <li>Özel Projeler ve İşbirlikleri: Özel taleplere yönelik yapay zeka tabanlı sanat projeleri ve işbirlikleri için danışmanlık hizmetleri.</li>
+           <li>Teknoloji ve Sanat Birleşimi: Sanatı yenilikçi teknolojiyle birleştirerek ortaya çıkan sıra dışı projeler için yaratıcı çözümler.</li>
+        </ol>
+    </div>
+
+    <div id="contact" class="container">
+        <h1>İletişim</h1>
+        <p><address>
+          Yapay Zeka Sanat Galerisi<br>
+          Bulutlar Caddesi No: 42<br>
+          Veri Nehri, Dijitaland
+        </address></p>
+    </div>
+    <center>
+      <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </center>
+    <div>
+        <footer>
+          <center><p>© 2022 aimastrerpieces0. Tüm hakları saklıdır.</p></center>
+        </footer>
+    </div>
+</body>
+
+</html>
